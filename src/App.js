@@ -4,7 +4,8 @@ import './App.css';
 import SearchIcon from './Search.svg';
 import MovieCards from './MovieCards';
 
-const API_URL = "http://www.omdbapi.com?apikey=48d028af";
+// const API_URL = "http://www.omdbapi.com?apikey=48d028af";    // http for local host 
+const API_URL = "https://www.omdbapi.com?apikey=48d028af";      // https for deployment 
 
 // const movie1 = {
 //     "Title": "Italian Spiderman",
